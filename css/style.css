@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #0cbaba;
+  background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+}
+
+.form-body {
+  padding: 30px 30px;
+  width: 400px;
+  height: 500px;
+  background-color: #ddd;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px #453f44;
+}
+
+.form-title, .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+}
+
+.one {
+  padding-top: 30px;
+}
+
+.two {
+  padding-bottom: 50px;
+  margin: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+.name-inputs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  outline: none;
+}
+
+.first {
+  margin-right: 5px;
+}
+
+.second {
+  margin-left: 10px;
+}
+
+.second::-moz-placeholder {
+  padding: 0 10px;
+}
+
+.second::placeholder {
+  padding: 0 10px;
+}
+
+.first, .second {
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+}
+
+.third, .fourth {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.first, .third, .fourth {
+  padding-left: 40px;
+  width: 100%;
+}
+
+.button {
+  padding: 10px 5px;
+  margin: 30px 0;
+  width: 100%;
+  border: 0.5px solid #0cbaba;
+  border-radius: 5px;
+  background-color: #0cbaba;
+}
+
+.icon-user, .icon-envelope, .icon-phone {
+  position: relative;
+  font-size: 25px;
+  color: #380036;
+}
+
+.icon-user i, .icon-envelope i, .icon-phone i {
+  position: absolute;
+  left: 10px;
+  top: 54.5%;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=style.css.map */
